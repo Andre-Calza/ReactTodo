@@ -1,0 +1,3 @@
+[0222/112602.566:ERROR:process_reader_win.cc(142)] SuspendThread: Acesso negado. (0x5)
+[0222/112602.567:ERROR:exception_snapshot_win.cc(87)] thread ID 7404 not found in process
+[0222/112602.567:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
