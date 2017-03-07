@@ -7,3 +7,6 @@
 [0307/095452.572:WARNING:in_range_cast.h(38)] value 2484965740046 out of range
 [0307/095452.572:WARNING:in_range_cast.h(38)] value 2484965741886 out of range
 [0307/095452.609:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: Tentou-se acessar um processo de saída.  (0xc000010a)
+[0307/154924.280:ERROR:process_reader_win.cc(142)] SuspendThread: Acesso negado. (0x5)
+[0307/154924.281:ERROR:exception_snapshot_win.cc(87)] thread ID 11932 not found in process
+[0307/154924.281:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
