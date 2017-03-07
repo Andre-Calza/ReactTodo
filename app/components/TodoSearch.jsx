@@ -10,15 +10,15 @@ export var TodoSearch = React.createClass({
       <div className="container__header">
         <div>
           <input type="search" ref="searchText" placeholder="Search todos" value={searchText} onChange={() => {
-            var strSearchText = this.refs.searchText.value;
-            dispatch(actions.setSearchText(strSearchText));
-          }}/>
+              var searchText = this.refs.searchText.value;
+              dispatch(actions.setSearchText(searchText));
+            }}/>
         </div>
         <div>
           <label>
-            <input type="checkbox" ref="showCompleted" checked={showCompleted} onChange={()=>{
-              dispatch(actions.toggleShowCompleted());
-            }}/>
+            <input type="checkbox" ref="showCompleted" checked={showCompleted} onChange={() => {
+                dispatch(actions.toggleShowCompleted());
+              }}/>
             Show completed todos
           </label>
         </div>

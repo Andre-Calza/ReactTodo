@@ -35,7 +35,7 @@ describe('TodoList', () => {
       <Provider store={store}>
         <ConnectedTodoList/>
       </Provider>
-    )
+    );
     var todoList = TestUtils.scryRenderedComponentsWithType(provider, ConnectedTodoList)[0];
     var todosComponents = TestUtils.scryRenderedComponentsWithType(todoList, ConnectedTodo);
 
