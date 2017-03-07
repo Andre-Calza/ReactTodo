@@ -1,0 +1,9 @@
+[0307/095452.531:ERROR:process_info.cc(608)] range at 0x93805c5c00000000, size 0x242 fully unreadable
+[0307/095452.532:ERROR:process_info.cc(608)] range at 0x93805cbe00000000, size 0x242 fully unreadable
+[0307/095452.532:ERROR:process_info.cc(608)] range at 0x0, size 0x242 fully unreadable
+[0307/095452.572:WARNING:in_range_cast.h(38)] value 2484965741206 out of range
+[0307/095452.572:WARNING:in_range_cast.h(38)] value 2484965754016 out of range
+[0307/095452.572:WARNING:in_range_cast.h(38)] value 2484965754356 out of range
+[0307/095452.572:WARNING:in_range_cast.h(38)] value 2484965740046 out of range
+[0307/095452.572:WARNING:in_range_cast.h(38)] value 2484965741886 out of range
+[0307/095452.609:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: Tentou-se acessar um processo de saída.  (0xc000010a)
