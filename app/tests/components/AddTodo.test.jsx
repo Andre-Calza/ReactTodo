@@ -5,7 +5,7 @@ var expect = require('expect');
 var $ = require('jquery');
 
 import * as actions from 'actions';
-import {AddTodo} = from 'AddTodo';
+var {AddTodo} = require('AddTodo');
 
 describe('AddTodo', () => {
   it('should exist', () => {

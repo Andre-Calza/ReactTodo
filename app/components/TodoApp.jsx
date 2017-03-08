@@ -13,12 +13,13 @@ export var TodoApp = React.createClass({
 
     dispatch(actions.startLogout());
   },
-  render () {
+  render() {
     return (
       <div>
         <div className="page-actions">
           <a href="#" onClick={this.onLogout}>Logout</a>
         </div>
+
         <h1 className="page-title">Todo App</h1>
 
         <div className="row">
